@@ -14,7 +14,7 @@ new_hash = {}
               new_hash[progkey] = {}
               new_hash[progkey][type] = tval
               new_hash[progkey][:style] = [key]
-              
+
             end
         end
 new_hash[progkey][:style] =  new_hash[progkey][:style].flatten
